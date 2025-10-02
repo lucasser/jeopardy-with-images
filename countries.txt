@@ -14,24 +14,23 @@ Category: Clothing
 400|<img>Serbian|Serbian Traditional Clothing
 500|<img>Moldovan|Moldovan Traditional Clothing
 
-Category: 1
-100|1|1
-200|1|1
-300|1|1
-400|1|1
-500|1|1
+Category: Launguage
+100|Без дождя нет цветов|Russian Language
+200|Без дажджу няма кветак|Belarusian Language
+300|Fără ploaie nu sunt flori|Romanian Language
+400|წვიმის გარეშე ყვავილები არ არის|Georgian Language
+500|Bez lietus nebūs ziedu|Latvian Language
 
-Category: 1
-100|1|1
-200|1|1
-300|1|1
-400|1|1
-500|1|1
+Category: Traditions
+100|What is the most common religion in Eastern European countries?|Orthodox Christianity
+200|What day do many Eastern European cultures celebrate Christmas?|January 7th
+300|In which country do fire dancers called “Nestirani” dance if burning embers barefoot?|Bulgaria
+400|“The drowning of Marzanna” is a tradition from which country?|Poland
+500||
 
-Category: 1
-100|1|1
-200|1|1
-300|1|1
-400|1|1
-500|1|1
-
+Category: Art
+100|<img>|Russian Nesting Dolls (Матрешки)
+200|<img>|Decebal’s Head, Romania
+300|<img>|Matthias Church, Hungary
+400|<img>|Czechia
+500|<img>|Croatian Musical Instruments
