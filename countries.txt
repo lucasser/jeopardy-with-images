@@ -26,11 +26,11 @@ Category: Traditions
 200|What day do many Eastern European cultures celebrate Christmas?|January 7th
 300|In which country do fire dancers called “Nestirani” dance if burning embers barefoot?|Bulgaria
 400|“The drowning of Marzanna” is a tradition from which country?|Poland
-500||
+500|What week long holiday celebrated in Russia, Ukraine, and Belarus has children singing songs and asking for candy?|Maslentitsa (Масленица)
 
 Category: Art
-100|<img>|Russian Nesting Dolls (Матрешки)
-200|<img>|Decebal’s Head, Romania
-300|<img>|Matthias Church, Hungary
-400|<img>|Czechia
-500|<img>|Croatian Musical Instruments
+100|<img>Матрешки|Russian Nesting Dolls (Матрешки)
+200|<img>Decebal|Decebal’s Head, Romania
+300|<img>Matthias|Matthias Church, Hungary
+400|<img>Czechia|Czechia
+500|<img>Instruments|Croatian Musical Instruments
