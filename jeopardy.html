@@ -1,10 +1,10 @@
 <!-- ─────────────────────────────────────────────────────────────
   Jeopardy — main page
   Created:  2025-06-07
-  
+
   Copyright (c) 2025 Eric Jones
   Licensed under the MIT License. See LICENSE.md for details.
-  
+
   Purpose:  Loads the Jeopardy board, links CSS + JS modules.
 ──────────────────────────────────────────────────────────────── -->
 <!DOCTYPE html>
@@ -34,29 +34,29 @@
         <p class="option-description">Upload a game file to start playing</p>
       </div>
     </div>
-    
+
     <!-- Hidden file input that will be triggered by the Load Draft File button -->
     <input type="file" id="jeopardy-draft-upload" accept=".txt" style="display: none;" />
-    
+
     <!-- Hidden file input that will be triggered by the Load Game File button -->
     <input type="file" id="jeopardy-game-upload" accept=".txt" style="display: none;" />
-    
+
     <!-- Team setup screen for file uploads -->
     <div id="file-teams-setup" class="hide">
       <h3>Add Teams Before Starting</h3>
       <p>Add teams for your game before loading the board.</p>
-      
+
       <div id="file-teams-container">
         <!-- Teams will be added here -->
       </div>
-      
+
       <button id="file-add-team">Add Team</button>
-      
+
       <div class="form-actions">
         <button id="file-teams-continue">Continue to Game</button>
       </div>
     </div>
-    
+
     <div id="create-form" class="hide">
       <div class="form-section">
         <div class="title-section">
@@ -64,13 +64,13 @@
           <input type="text" id="board-title" placeholder="Enter a title for your game" class="required-field" required>
         </div>
       </div>
-      
+
       <div id="categories-container">
         <!-- Category inputs will be generated here -->
       </div>
-      
+
       <div id="validation-message"></div>
-      
+
       <!-- Teams section for the form -->
       <div class="form-section" id="teams-section">
         <h3>Teams</h3>
@@ -80,7 +80,7 @@
         </div>
         <button id="form-add-team">Add Team</button>
       </div>
-      
+
       <div class="form-actions">
         <button id="generate-board">Create</button>
         <button id="generate-download">Save</button>
@@ -144,8 +144,10 @@
 
   <!-- Prompt Modal for Question/Answer and Scoring -->
   <div id="prompt">
-    <h2 id="prompt-question"></h2>
-    <h3 id="prompt-answer"></h3>
+    <h2 id="prompt-question-text"></h2>
+	<img id="prompt-question-img" src="" style="height: 50%; width: auto; margin-top: 10px;">
+    <h3 id="prompt-answer-text"></h3>
+	<img id="prompt-answer-img" src="" style="display:none; height: 50%; width: auto; margin-top: 10px;">
     <button id="show-answer">Show Answer</button>
     <div class="prompt-controls">
       <label for="prompt-team-select">Select Team:</label>

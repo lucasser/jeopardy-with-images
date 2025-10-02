@@ -43,8 +43,8 @@ input::placeholder, textarea::placeholder {
     font-style: italic;
 }
 
-textarea { 
-    padding: 10px; 
+textarea {
+    padding: 10px;
 }
 
 /* Form section styling */
@@ -332,14 +332,14 @@ textarea#title {
     align-items:center;
     flex-direction:column;
 }
-#prompt-question {
+#prompt-question-text {
     font-size: 64px;
     font-weight: 700;
     margin-bottom: 30px;
     color: #111;
     text-shadow: none;
 }
-#prompt-answer {
+#prompt-answer-text {
     display: none;
     font-size: 48px;
     color: #111;
@@ -975,18 +975,18 @@ input.team-name {
         align-items: center;
         gap: 15px;
     }
-    
+
     .option-card {
         min-width: 250px;
         max-width: 300px;
         width: 90%;
     }
-    
+
     .option-card button {
         padding: 14px 20px;
         font-size: 1em;
     }
-    
+
     .option-description {
         font-size: 0.85em;
     }
