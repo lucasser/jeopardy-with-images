@@ -948,7 +948,7 @@ function showTextOrImg(string, ans) {
 	console.log('showTextOrImg input:', string.substring(0, 5));
 
 	if (string.substring(0, 5) === "<img>") {
-		img.src = imgpath + string.substring(5).trim() + ".png";
+		img.src = imgpath + string.substring(5).trim() + ".jpg";
 		return img;
 	} else {
 		text.textContent = string;

@@ -25,7 +25,7 @@ An interactive web application for the game of Jeopardy that runs locally on you
    **Option A: Create new game**
    - Click 'Create' on the home screen
    - Fill in the form with your game title, five categories, five questions/answers per category and teams
-   - To use an image, put <img> in front of image name. (putting "<img>bobby" in question will display image [](images/answers/bobby.png))
+   - To use an image, put <img> in front of image name. (putting "<img>bobby" in question will display image [](images/answers/bobby.jpg))
 
   ![Game Board Creation](screenshots/updated-manual-game-creation.png)
 
