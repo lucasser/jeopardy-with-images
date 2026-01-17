@@ -226,6 +226,7 @@ function validateGameFile(fileContent) {
 	// Check last category
 	if (currentCategoryQuestions < 5) {
 		hasIncompleteCategory = true;
+		console.log("it's the last one with " + currentCategoryQuestions + " questions")
 	}
 
 	if (categoryCount < 5) {
@@ -951,7 +952,7 @@ function showTextOrImg(string, ans) {
 		img.src = imgpath + string.substring(5).trim() + ".png";
 		return img;
 	} else {
-		text.textContent = string;
+		text.innerHTML = string;
 		return text;
 	}
 }
